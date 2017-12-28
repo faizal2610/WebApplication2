@@ -1,0 +1,41 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>JAVA SCRIPT</title>
+    <script language="javascrpit" type="text/javascript">
+        function operators()
+        {
+            var a = Demo.val1.value;
+            var b = Demo.val2.value;
+
+            document.write("A+B=");
+            result = a + b;
+            document.write(result);
+            document.write(linebreak);
+
+            document.write("A-B=");
+            result1 = a-b;
+            document.write(result1);
+            document.write(linebreak);
+
+            document.write("A*B=");
+            result2 = a * b;
+            document.write(result2);
+            document.write(linebreak);
+
+            document.write("A/B=");
+            result3 = a / b;
+            document.write(result3);
+            document.write(linebreak);
+        }
+    </script>
+	<meta charset="utf-8" />
+</head>
+<body>
+    <form name="Demo" method="get">
+        <input type="text" name="val1" placeholder="Enter value of A" /> </br>
+        <input type="text" name="val2" placeholder="Enter value of B" /> </br>
+        <input type="button" onclick="operators()" value="Submit" />
+    </form>
+</body>
+</html>

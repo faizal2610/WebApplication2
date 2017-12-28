@@ -1,0 +1,40 @@
+﻿@charset 'utf-8';
+
+/*** FONTS ***/
+
+body
+{
+    font-family:'Times New Roman';
+}
+
+/***COLORS***/
+::selection, ::-moz-selection
+{
+    background-color:rgba(122,192,0,0.2);
+}
+
+/*** SHADOWING ***/
+h1 
+{
+    text-shadow: 2px 2px 2px #000;
+}
+.linkButton:hover
+{
+    background:-moz-linear-gradient(
+                bottom,
+                #ff6a00 23%,
+                #ff0000 62%
+        );
+}
+
+/*** TRANSFORMS ***/
+mark
+{
+    transform: scaleX(-1.1)
+}
+
+/*** FROM INPUTS ***/
+input.data:required
+{
+    background-color:rgba(255,0,0,0.04);
+}
